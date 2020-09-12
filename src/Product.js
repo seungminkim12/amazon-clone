@@ -1,6 +1,5 @@
 import React from "react";
 import "./Product.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function Product({ id, title, image, price, rating }) {
   return (
